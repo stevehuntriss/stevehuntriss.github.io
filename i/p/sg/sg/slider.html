@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="noindex">
+	<title>shop genius &#9734; We build web stores that sell. Anywhere.</title>
+	<link rel="stylesheet" type="text/css" href="shopgenius.css">
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+	<script type="text/javascript" src="js/coda-slider.1.1.1.pack.js"></script>
+
+<script>
+		var theInt = null;
+		var $crosslink, $navthumb;
+		var curclicked = 0;
+		
+		theInterval = function(cur){
+			clearInterval(theInt);
+			
+			if( typeof cur != 'undefined' )
+				curclicked = cur;
+			
+			$crosslink.removeClass("active-thumb");
+			$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+			
+			theInt = setInterval(function() {
+				$crosslink.removeClass("active-thumb");
+				$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+				curclicked++;
+				if( 3 == curclicked )
+					curclicked = 0;
+				
+			}, 3000);
+		};
+		
+		// DOM Ready
+		$(function() {
+			
+			$("#main-photo-slider").codaSlider();
+			
+			$navthumb = $(".nav-thumb");
+			$crosslink = $(".cross-link");
+			
+			$navthumb
+				.click(function() {
+					var $this = $(this);
+					theInterval($this.parent().attr('href').slice(1) - 1);
+					return false;
+				});
+			
+			theInterval();
+		});
+	</script>
+</head>
+<body>
+    
+												
+	<div class="slider-wrap">
+		<div id="main-photo-slider" class="csw">
+			<div class="panelContainer">
+
+				<div class="panel" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_1.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+				<div class="panel2" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_2.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+				<div class="panel3" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_3.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<a href="" class="cross-link active-thumb"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a>
+		<div id="movers-row">
+			<div><a href="" class="cross-link"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a></div>
+			<div><a href="" class="cross-link"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a></div>
+		</div>
+
+	</div>
+	
+	<div class="slider-wrap-ipad">
+		<div id="main-photo-slider" class="csw">
+			<div class="panelContainer">
+
+				<div class="panel" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_1.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+				<div class="panel2" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_2.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+				<div class="panel3" title="shopgenius: Design. Build. Monetize.">
+					<div class="wrapper">
+						<img src="images/hero_3.png" alt="temp">
+						<div class="photo-meta-data">
+							overlay
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<a href="" class="cross-link active-thumb"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a>
+		<div id="movers-row">
+			<div><a href="" class="cross-link"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a></div>
+			<div><a href="" class="cross-link"><img src="images/slider_dot_t.png" class="nav-thumb" alt="temp-thumb"></a></div>
+		</div>
+
+	</div>
+	
+	
+
+</body>
+
+</html>

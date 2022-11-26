@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#sites-main {
+	margin: 100px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+.border {
+	border-radius: 25px;
+	background: #f2efed;
+	margin: 0 0 50px 0;
+	padding: 20px;
+}
+
+.sg-iframe {
+	width: 1480px;
+	border-radius: 25px;
+	background: #f2efed;
+	margin: 0 0 50px 0;
+	padding: 20px;
+	overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fcf9f7; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14CF93;
+  border-radius: 5px;
