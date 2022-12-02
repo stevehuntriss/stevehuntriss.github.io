@@ -250,9 +250,7 @@ var Website = {
                         $("#transition strong").removeClass("reveal").html("")
                     }, 800)).find("header").removeClass("transition remove-nav transition-nav"), Website._init(!1), this.complete(e)
                 },
-                complete: function(t) {
-                    ga("set", "page", window.location.pathname), ga("send", "pageview")
-                }
+                
             },
             scroll_to_top: function() {
                 $("html, body").animate({
