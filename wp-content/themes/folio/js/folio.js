@@ -300,7 +300,7 @@ var Website = {
         _register: {
             scroll: !1,
             are: !1,
-            executive: !1
+            folio: !1
         },
         _init: function() {
             this._base(), this._events()
@@ -316,7 +316,7 @@ var Website = {
             })
         },
         _events_unload: function() {
-            clearTimeout(this._register.are), clearTimeout(this._register.executive), $(document).off("vmouseover", "section#capabilities ul li")
+            clearTimeout(this._register.are), clearTimeout(this._register.folio), $(document).off("vmouseover", "section#capabilities ul li")
         },
         _interaction: {
             capabilities: function(t) {
@@ -1593,7 +1593,9 @@ SmoothScroll = {
                 _self._scroll(!1, !1)
             }
         },
-        
+        _easing: function() {
+            _self._attributes.document.main.removeEventListener("scroll", _self._binding.scroll), this._attributes.transition.ease = parseFloat(window.getComputedStyle(document.body).getPropertyValue("--smoothScroll")), this._attributes.document.main = .1 === this._attributes.transition.ease ? window : document.getElementById("main"), this._attributes.document.main_body = .1 === this._attributes.transition.ease ? document.body : document.getElementById("main"), _self._attributes.document.main.removeEventListener("scroll", _self._binding.scroll), _self._attributes.document.main.addEventListener("scroll", _self._binding.scroll)
+        },
         _resize: function(t, e, i) {
             if (t || this._easing(), this._attributes.document.height != this._attributes.document.container.offsetHeight || i || e) {
                 if (this._attributes.document.height = this._attributes.document.container.offsetHeight, this._attributes.window = {
