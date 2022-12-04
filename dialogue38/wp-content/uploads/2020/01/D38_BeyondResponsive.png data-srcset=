@@ -1,0 +1,578 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="">
+<meta name="author" content="executive">
+<title>Executive | A Digital Branding Agency</title>
+<meta name="description" content="Executive is an award-winning digital brand agency in Toronto. Our expertise lives where design, technology, and experience collide.">
+<meta name="robots" content="index, follow">
+<meta property="fb:app_id" content="384156682659877">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Executive | A Digital Branding Agency">
+<meta property="og:site_name" content="Executive Agency">
+<meta property="og:url" content="https://www.executiveagency.ca">
+<meta property="og:image" content="https://www.executiveagency.ca/wp-content/themes/executive/images/executive-office.jpg">
+<meta property="og:image:alt" content="Executive Agency Office">
+<meta property="og:description" content="Executive is an award-winning digital brand agency in Toronto. Our expertise lives where design, technology, and experience collide.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Executive | A Digital Branding Agency">
+<meta name="twitter:description" content="Executive is an award-winning digital brand agency in Toronto. Our expertise lives where design, technology, and experience collide.">
+<meta name="twitter:image" content="https://www.executiveagency.ca/wp-content/themes/executive/images/executive-office.jpg">
+<link rel="preload" href="https://www.executiveagency.ca/wp-content/themes/executive/fonts/AkkuratPro-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.executiveagency.ca/wp-content/themes/executive/fonts/AkkuratPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.executiveagency.ca/wp-content/themes/executive/fonts/Graphik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap">
+<link rel="stylesheet" type="text/css" href="https://www.executiveagency.ca/wp-content/themes/executive/css/executive.css?v1.134">
+<link rel="canonical" href="https://www.executiveagency.ca">
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.executiveagency.ca/wp-content/themes/executive/images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/x-icon" href="https://www.executiveagency.ca/wp-content/themes/executive/favicon.ico">
+<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [{
+					"@context" : "https://schema.org",
+					"@id": "https://www.executiveagency.ca/#organization",
+					"@type" : "Organization",
+					"name" : "Executive",
+					"url" : "https://www.executiveagency.ca",
+					"sameAs" : [
+						"https://www.linkedin.com/company/executiveagency",
+						"https://www.instagram.com/weareexecutive",
+						"https://www.facebook.com/weareexecutive"
+					],
+					"logo": "https://www.executiveagency.ca/wp-content/themes/executive/assets/img/executive-logo.svg"
+				}, {
+					"@type": "WebSite",
+					"@id": "https://www.executiveagency.ca/#website",
+					"url": "https://www.executiveagency.ca",
+					"name": "Executive Agency",
+					"description": "",
+					"publisher": {
+						"@id": "https://www.executiveagency.ca/#organization"
+					},
+					"inLanguage": "en-US"
+				}]
+			}
+		</script>
+
+<script type="74695430ba21bbe669f39715-text/javascript">
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				
+				ga('create', 'UA-106735478-1', 'auto');
+				ga('send', 'pageview');
+			</script>
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<style type="text/css">
+			@media all and (max-width: 1200px) {
+				:root { --gutter: 10px; }
+			}
+				
+            @media all and (max-width: 600px) {
+				:root { --columns: 6; --margin: 38px; }
+            }
+
+            @media all and (min-width: 601px) {
+				:root { --columns: 12; }
+			}
+	
+            @media all and (min-width: 601px) and (max-width: 900px) {
+				:root { --margin: 84px; }
+            }
+
+            @media all and (min-width: 901px) and (max-width: 1200px) {	
+				:root { --margin: 62px; }
+            }
+
+			@media all and (min-width: 1201px) and (max-width: 1500px) {
+				:root { --gutter: 20px; --margin: 120px; }
+			}
+
+            @media all and (min-width: 1501px) {
+				:root { --gutter: 40px; --margin: 160px; }
+			}
+			
+			:root {
+				--vw: 1vw;
+				--vh_fixed: 1vh;
+				--grid: calc((var(--vw) * 100) - (var(--margin) * 2));
+				--col: calc((var(--grid) + var(--gutter)) / var(--columns));
+				--col_only: calc(var(--col) - var(--gutter));
+			}
+		</style>
+</head>
+<body class="init">
+<main>
+<header smoothscroll="fixed" class="transition">
+<div class="container">
+<a href="#" aria-label="Home" tabindex="0" tabposition="0">
+<svg width="100" height="17" viewbox="0 0 100 17" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.43804267 9.10488131c-.38540926-1.43791667-1.58932386-2.34847918-3.10604986-2.34847918-1.44448401 0-2.59964417.91056251-3.05729542 2.34847918h6.16334528zM3.22629892 11.6927773c.40889679 1.5091042 1.61281138 2.4437501 3.10569393 2.4437501 1.0594306 0 2.09466191-.4551042 2.62419928-1.4375626H12.350854c-.722064 2.5160001-2.91281134 4.2167085-5.99466186 4.2167085-3.49110319 0-6.35622773-2.8744168-6.35622773-6.4451252 0-3.57000008 2.86512454-6.49364598 6.35622773-6.49364598 3.65907476 0 6.69288256 2.82766674 6.23523126 7.71587518H3.22629892zM20.9214954 16.628479l-2.5758008-4.1933333-2.600356 4.1933333h-3.5871887l4.333808-6.3735833-4.0686834-5.96593744h3.611388l2.3110321 3.76124996 2.2868328-3.76124996h3.6113881L20.175232 10.2548957l4.333808 6.3735833h-3.5875446zm12.3022409-7.52359769c-.3854093-1.43791667-1.5893239-2.34847918-3.1060499-2.34847918-1.444484 0-2.5996441.91056251-3.0572954 2.34847918h6.1633453zm-6.2117438 2.58789599c.4092527 1.5091042 1.6128114 2.4437501 3.1056939 2.4437501 1.0594306 0 2.0946619-.4551042 2.6241993-1.4375626h3.3946619c-.7220641 2.5160001-2.9128114 4.2167085-5.994306 4.2167085-3.491459 0-6.3565836-2.8744168-6.3565836-6.4451252 0-3.57000008 2.8651246-6.49364598 6.3565836-6.49364598 3.6590747 0 6.6925266 2.82766674 6.2352312 7.71587518h-9.3654803zm17.0210324 5.2227896c-3.7313167 0-6.4042703-2.8744168-6.4042703-6.444771 0-3.57035427 2.6729536-6.49400018 6.4042703-6.49400018 2.9854091 0 5.2491101 1.67768754 5.9708183 4.45718762h-3.394306c-.4334519-.83902086-1.4202846-1.55762504-2.5765123-1.55762504-1.7572954 0-3.1779359 1.62916671-3.1779359 3.6181668 0 1.9408333 1.4206405 3.546625 3.1779359 3.546625 1.1800711 0 2.1907472-.7193125 2.6007116-1.5817083h3.394306c-.7224199 2.802875-2.9854092 4.4561251-5.9950176 4.4561251zm12.7606425 0c-3.4672598 0-5.5135232-2.275875-5.5135232-5.5104792V4.28881674h3.1782919v7.21225006c0 .6945209.2405694 2.3477709 2.3352313 2.3477709 1.3960854 0 2.4074733-.9824584 2.4074733-2.3477709V4.28881674h3.1775801v7.11627096c0 3.1389792-2.2145907 5.5104792-5.5850534 5.5104792zm12.5673986-.3112772c-3.6355871.3835625-5.5619216-1.7966875-5.5619216-5.1754375V1.1498729h3.1786476v3.1389792h2.2384342v2.8032292H66.977792v4.3608542c0 1.7247917.7939502 2.3722084 2.383274 2.2762292v2.875125zm1.6125981.0241538V4.2889228h3.1782918v12.3395207h-3.1782918zm0-13.68145805V-.00003542h3.1782918v2.94702087h-3.1782918zM83.1073323 16.628479H79.688827L74.994165 4.28895826h3.3224199l3.0814947 9.20089574 3.1053381-9.20089574h3.2747332L83.1073323 16.628479zm13.650673-7.52359769c-.3854093-1.43791667-1.5893239-2.34847918-3.1060499-2.34847918-1.444484 0-2.5996442.91056251-3.0572954 2.34847918h6.1633453zm-6.2117438 2.58789599c.4088968 1.5091042 1.6128113 2.4437501 3.1056939 2.4437501 1.0590747 0 2.0946619-.4551042 2.6241992-1.4375626h3.3946619c-.722064 2.5160001-2.9128113 4.2167085-5.994306 4.2167085-3.4918149 0-6.3565835-2.8744168-6.3565835-6.4451252 0-3.57000008 2.8647686-6.49364598 6.3565835-6.49364598 3.6587188 0 6.6925265 2.82766674 6.2348754 7.71587518h-9.3651244z" fill="#FFF" fill-rule="evenodd" />
+</svg>
+</a>
+<nav aria-label="Navigation" role="navigation">
+<a href="/work" class="text-reveal" aria-label="Work" tabindex="0" tabposition="0">Work</a>
+<a href="/agency" class="text-reveal" aria-label="Agency" tabindex="0" tabposition="0">Agency</a>
+<a href="/contact" class="text-reveal" aria-label="Contact" tabindex="0" tabposition="0">Contact</a>
+<div aria-label="Social Links">
+<a href="https://www.linkedin.com/company/executiveagency" target="_blank" aria-label="Connect with us LinkedIn" tabindex="-1">LinkedIn</a>
+<a href="https://www.instagram.com/weareexecutive" target="_blank" aria-label="Follow us on Instagram" tabindex="-1">Instagram</a>
+<a href="https://www.facebook.com/weareexecutive" target="_blank" aria-label="Follow us on Facebook" tabindex="-1">Facebook</a>
+</div>
+</nav>
+<button type="button" action="menu">Menu</button>
+</div>
+</header>
+<div id="main">
+<div data-scroll id="smoothscroll">
+<section id="loader" smoothscroll="fixed">
+<div id="loader-images">
+<picture loader="1">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-800x500.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1024x640.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1280x800.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-scaled.jpg.webp 2560w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-800x500.jpg.webp" class="active" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0101-canadapooch-scaled.jpg.webp 2560w" alt="Canada Pooch Product Photo">
+</picture>
+<picture loader="1">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-t-800x1065.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-t-1024x1363.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-t-1280x1704.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-t.jpg.webp 1540w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-800x500.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0102-aci-scaled.jpg.webp 2560w" alt="ACI Art Book">
+</picture>
+<picture loader="1">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-800x500.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1024x640.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1280x800.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-scaled.jpg.webp 2560w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-800x500.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0103-d38-scaled.jpg.webp 2560w" alt="Dialogue38 Restaurant Design">
+</picture>
+<picture loader="2">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/CulturalCouncil-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/CulturalCouncil-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/CulturalCouncil.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_CC-800x1067.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_CC-1024x1365.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_CC-1280x1707.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_CC.jpg.webp 1536w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-800x450.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1024x576.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1280x720.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1600x900.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1920x1080.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel.jpg.webp 1920w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-800x450.jpg.webp" class="active" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-800x450.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1024x576.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1280x720.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel-1920x1080.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cultural-counsel.jpg.webp 1920w" alt="Cultural Counsel Website on Tablet">
+</picture>
+<picture loader="2">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0202-d38-1-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0202-d38-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0202-d38-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_D38-800x1067.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_D38-1024x1365.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_D38-1280x1707.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Tablet_Portrait_D38.jpg.webp 1536w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-800x500.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/D38_Portfolio_2019-22-scaled.jpg.webp 2560w" alt="Dialogue38 Retail Space">
+</picture>
+<picture loader="2">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk_Mobile-800x1423.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk_Mobile-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk_Mobile.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk-800x1067.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk-1024x1365.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk-1280x1707.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/Mjolk.jpg.webp 1536w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-800x450.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1024x576.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1280x720.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1600x900.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1920x1080.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2.jpg.webp 1920w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-800x450.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-800x450.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1024x576.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1280x720.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2-1920x1080.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_cooboutique2.jpg.webp 1920w" alt="CooBoutique Print">
+</picture>
+<picture loader="3">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1-800x1422.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-t-800x1067.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-t-1024x1365.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-t-1280x1707.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-t.jpg.webp 1536w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-800x500.jpg.webp" class="active" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0301-sothebys-scaled.jpg.webp 2560w" alt="Sotheby's Institute of Art Website on Mobile">
+</picture>
+<picture loader="3">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Mobile-800x1423.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Mobile.jpg.webp 828w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Mobile.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Tablet-800x450.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Tablet-1024x576.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Tablet-1280x720.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_Tablet.jpg.webp 1920w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-800x500.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2021/01/AB_1-scaled.jpg.webp 2560w" alt="Brott & Co. Listing Photo">
+</picture>
+<picture loader="3">
+<source media="(max-width: 600px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1-800x1423.jpg.webp w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1-576x1024.jpg.webp 576w,
+																		   		https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1.jpg.webp 828w">
+<source media="(min-width: 601px) and (max-width: 900px) and (orientation: portrait)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_aci-800x450.jpg.webp 800w,
+																																   https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_aci-1024x576.jpg.webp 1024w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_aci-1280x720.jpg.webp 1280w,
+																															  	   https://www.executiveagency.ca/wp-content/uploads/2020/02/executive_aci.jpg.webp 1920w">
+<source media="(min-width: 601px)" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-800x500.jpg.webp 800w,
+																				https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1024x640.jpg.webp 1024w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1280x800.jpg.webp 1280w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1600x1000.jpg.webp 1600w,	
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1920x1200.jpg.webp 1920w,
+																			    https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-scaled.jpg.webp 2560w">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-800x500.jpg.webp" class="" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-800x500.jpg.webp 800w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1024x640.jpg.webp 1024w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1280x800.jpg.webp 1280w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-1920x1200.jpg.webp 1920w,
+											  https://www.executiveagency.ca/wp-content/uploads/2020/02/0303-aci-scaled.jpg.webp 2560w" alt="ACI Art Books in Print">
+</picture>
+</div>
+<div id="loader-intro">
+<div class="container">
+<div class="text-reveal">Your brand is your story
+and we help you tell it.</div>
+</div>
+</div>
+</section>
+<div class="scroll-container">
+<section id="services" smoothscroll controller="homepage">
+<div class="container">
+<h1 class="text-reveal concurrent">Executive is a digital brand agency that lives where design, technology,
+and experience collide. We are obsessed with creativity — challenging
+what is, while defining what comes next.</h1>
+</div>
+<div id="services_container" scroll="services,reveal">
+<div>
+<ol>
+<li>Research & Strategy</li>
+<li>Content Strategy</li>
+<li>Art Direction</li>
+<li>Prototyping</li>
+<li>Photography</li>
+</ol>
+<ol>
+<li>Research & Strategy</li>
+<li>Content Strategy</li>
+<li>Art Direction</li>
+<li>Prototyping</li>
+<li>Photography</li>
+</ol>
+</div>
+<div>
+<ol>
+<li>Interactive Design</li>
+<li>User Experience</li>
+<li>Web Development</li>
+<li>Ecommerce</li>
+<li>Mobile Apps</li>
+</ol>
+<ol>
+<li>Interactive Design</li>
+<li>User Experience</li>
+<li>Web Development</li>
+<li>Ecommerce</li>
+<li>Mobile Apps</li>
+</ol>
+</div>
+</div>
+<div class="container">
+<a href="/agency" class="arrow" aria-label="Get to know us" tabindex="0" tabalignment="center"><span>Get to know us</span> <arrow></arrow></a>
+</div>
+</section>
+<section id="case-studies" smoothscroll>
+<div class="container">
+<div class="case-study">
+<a href="/work/dialogue38" aria-label="Dialogue38" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-800x1104.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-800x1104.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-1024x1413.jpg.webp 1024w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-1280x1767.jpg.webp 1280w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-1159x1600.jpg.webp 1159w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home-1391x1920.jpg.webp 1391w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/d38-home.jpg.webp 1420w" alt="Dialogue38 Case Study">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/dialogue38" scroll="reveal" aria-label="Dialogue38" tabindex="0" txabalignment="top">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>Dialogue38</sub></span></strong>
+<em class="text-reveal">Defining and shaping
+entire brand spaces</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+<div class="case-study">
+<a href="/work/ensembl" aria-label="Ensembl" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2-800x1108.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2-800x1108.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2-1024x1418.jpg.webp 1024w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2-1280x1772.jpg.webp 1280w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2.jpg.webp 1300w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2.jpg.webp 1300w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/11/07-productoverview-01-whystackware-shot6-1440x1800-v1_1440x1800_acf_cropped2.jpg.webp 1300w" alt="Ensembl Case Study">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/ensembl" scroll="reveal" aria-label="Ensembl" tabindex="0" txabalignment="bottom">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>Ensembl</sub></span></strong>
+<em class="text-reveal">Cookware that goes
+beyond the kitchen</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+<div class="case-study">
+<a href="/work/sothebys-institute-of-art" aria-label="Sotheby's Institute of Art" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<video muted loop playsinline>
+<source src="https://www.executiveagency.ca/wp-content/uploads/2020/02/sothebys-home-comp.mp4" type="video/mp4">
+</video>
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys-800x588.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys-800x588.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys-1024x752.jpg.webp 1024w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys-1280x941.jpg.webp 1280w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys.jpg.webp 1584w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys.jpg.webp 1584w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/02/Sothebys.jpg.webp 1584w" alt="">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/sothebys-institute-of-art" scroll="reveal" aria-label="Sotheby's Institute of Art" tabindex="0" txabalignment="top">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>Sotheby's Institute of Art</sub></span></strong>
+<em class="text-reveal">There’s more to art
+than auctions</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+<div class="case-study">
+<a href="/work/art-canada-institute" aria-label="Art Canada Institute" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-800x1104.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-800x1104.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-1024x1413.jpg.webp 1024w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-1280x1767.jpg.webp 1280w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-1159x1600.jpg.webp 1159w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home-1391x1920.jpg.webp 1391w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/aci-home.jpg.webp 1420w" alt="ACI Case Study">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/art-canada-institute" scroll="reveal" aria-label="Art Canada Institute" tabindex="0" txabalignment="top">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>Art Canada Institute</sub></span></strong>
+<em class="text-reveal">A modern way
+to experience
+classical art</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+<div class="case-study">
+<a href="/work/nxm" aria-label="NXM" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<video muted loop playsinline>
+<source src="https://www.executiveagency.ca/wp-content/uploads/2020/02/nxm-home-comp.mp4" type="video/mp4">
+</video>
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage-800x1126.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage-800x1126.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage.jpg.webp 926w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage.jpg.webp 926w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage.jpg.webp 926w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage.jpg.webp 926w,
+													  https://www.executiveagency.ca/wp-content/uploads/2021/01/NXVideoImage.jpg.webp 926w" alt="NXM Case Study">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/nxm" scroll="reveal" aria-label="NXM" tabindex="0" txabalignment="bottom">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>NXM</sub></span></strong>
+<em class="text-reveal">The future of
+smart cars is here</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+<div class="case-study">
+<a href="/work/open-farm" aria-label="Open Farm" tabindex="-1">
+<figure scroll="reveal" role="img">
+<span scroll="case-studies.image">
+<img data-src="https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home-800x596.jpg.webp" data-srcset="https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home-800x596.jpg.webp 800w,
+										 			  https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home-1024x763.jpg.webp 1024w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home-1280x953.jpg.webp 1280w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home-1600x1192.jpg.webp 1600w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home.jpg.webp 1826w,
+													  https://www.executiveagency.ca/wp-content/uploads/2020/02/openfarm-home.jpg.webp 1826w" alt="Open Farm Case Study">
+</span>
+</figure>
+</a>
+<div>
+<a href="/work/open-farm" scroll="reveal" aria-label="Open Farm" tabindex="0" txabalignment="top">
+<strong class="text-reveal set"><span style="--index: 0;"><sub>Open Farm</sub></span></strong>
+<em class="text-reveal">Building a
+better pet food</em>
+<span class="arrow"><span>View the project</span> <arrow></arrow></span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="our-work" smoothscroll>
+<div class="container">
+<p scroll="reveal" class="text-reveal concurrent">We fuse insights, opportunities, and unexpected expressions into resonant brand experiences.</p>
+<a href="/work" class="arrow" aria-label="See the work" tabindex="0" tabalignment="center"><span>See the work</span> <arrow></arrow></a>
+</div>
+</section>
+</div>
+
+<footer smoothscroll scroll="menu" aria-label="Footer" role="contentinfo">
+<div id="footer" scroll="footer">
+<div class="container">
+<div id="connect">
+<strong>Starting a new project or
+want to collaborate with us?</strong>
+<a href="/contact" class="arrow black" aria-label="Starting a new project or want to collaborate with us? Let’s talk" tabindex="0" tabposition="bottom"><span>Let’s talk</span> <arrow></arrow></a>
+</div>
+<div id="contact">
+<div id="address">
+<p>219 Dufferin St. Unit 218c
+Toronto ON M6K3J1</p>
+<p><a href="/cdn-cgi/l/email-protection#a4ccc1c8c8cbe4c1dcc1c7d1d0cdd2c1c5c3c1cac7dd8ac7c5" aria-label="Get in Touch at hello@executiveagency.ca" tabindex="0" tabposition="bottom"><span class="__cf_email__" data-cfemail="4e262b2222210e2b362b2d3b3a27382b2f292b202d37602d2f">[email&#160;protected]</span></a>
+<a href="tel:416-876-3648" aria-label="Get in Touch at 416-876-3648" tabindex="0" tabposition="bottom">416-876-3648</a></p>
+</div>
+<div id="social" aria-label="Social Links">
+<a href="https://www.linkedin.com/company/executiveagency" target="_blank" aria-label="Connect with us LinkedIn" tabindex="0" tabposition="bottom">LinkedIn</a>
+<a href="https://www.instagram.com/weareexecutive" target="_blank" aria-label="Follow us on Instagram" tabindex="0" tabposition="bottom">Instagram</a>
+<a href="https://www.facebook.com/weareexecutive" target="_blank" aria-label="Follow us on Facebook" tabindex="0" tabposition="bottom">Facebook</a>
+</div>
+<small>&copy; 2022</small>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</main>
+<div id="project-transition"><div></div></div>
+<div id="transition"><div><p><strong class="text-reveal set"><span><sub></sub></span></strong></p></div></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="74695430ba21bbe669f39715-text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="74695430ba21bbe669f39715-text/javascript" src="https://www.executiveagency.ca/wp-content/themes/executive/js/executive.js?v1.1"></script>
+<script type="74695430ba21bbe669f39715-text/javascript">
+				var projects = {"ensembl":"Ensembl","seechange":"SeeChange","brott-co":"Brott & Co","open-farm":"Open Farm","whitman-emorson":"Whitman Emorson","nxm":"NXM","sothebys-institute-of-art":"Sotheby's Institute of Art","dialogue38":"Dialogue38","canada-pooch":"Canada Pooch","gluskin-sheff":"Gluskin Sheff","art-canada-institute":"Art Canada Institute","cambridge-forums":"Cambridge Forums","mevame":"Me Va Me","colin-faulkner":"Colin Faulkner","mjolk":"Mjolk"};
+			</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="74695430ba21bbe669f39715-|49" defer=""></script></body>
+</html>
