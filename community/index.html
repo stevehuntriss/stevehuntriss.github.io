@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<title>Community &amp; Brand Systems for Games, Creators, and Online Platforms</title>
+	<style>
+		/* 1. GLOBAL & NEBULA BACKGROUND */
+		* { box-sizing: border-box; margin: 0; padding: 0; }
+		
+		body {
+			font-family: 'Inter', -apple-system, system-ui, sans-serif;
+			color: #fff;
+			line-height: 1.6;
+			background: linear-gradient(180deg, #050505, #1a1a2e, #16213e, #0f3460);
+			background-size: 400% 400%;
+			animation: nebulaFlow 18s ease infinite;
+			overflow-x: hidden;
+			scroll-behavior: smooth;
+		}
+
+		@keyframes nebulaFlow {
+			0% { background-position: 0% 50%; }
+			50% { background-position: 100% 50%; }
+			100% { background-position: 0% 50%; }
+		}
+
+		/* 2. STICKY NAVIGATION */
+		nav {
+			position: fixed;
+			top: 0; width: 100%;
+			padding: 20px 5%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background: rgba(0, 0, 0, 0.3);
+			backdrop-filter: blur(15px);
+			z-index: 1000;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+
+		.logo { padding-top: 10px; }
+		.nav-links { display: flex; gap: 30px; list-style: none; }
+		.nav-links a { font-size:1.4rem; text-decoration: none; color: rgba(255, 255, 255, 0.7); transition: 0.3s; }
+		.nav-links a:hover { color: #fff; }
+
+		/* 3. HERO SECTION */
+		.section-padding { padding: 120px 20px; max-width: 1200px; margin: 0 auto; }
+		
+		.hero {
+			text-align: center;
+			padding-top: 180px;
+			padding-bottom: 120px;
+		}
+		
+		.work {
+			text-align: center;
+			padding-top: 10px;
+		}
+		
+		.portrait {	
+			margin: 0; padding: 0;
+		}
+		
+		h1 { font-size: clamp(1.5rem, 8vw, 3.5rem); letter-spacing: -2px; margin-bottom: 20px; font-weight: 800; }
+		.hero p { font-size: 1.25rem; color: rgba(255,255,255,0.7); max-width: 700px; margin: 0 auto 40px; }
+		.work p { font-size: 1.5rem; color: rgba(255,255,255,0.7); margin: 0 auto 40px; }
+		.button-group { display: flex; gap: 15px; justify-content: center; }
+		.btn { padding: 14px 32px; border-radius: 12px; font-weight: 600; text-decoration: none; transition: 0.3s; }
+		.btn-primary { background: #fff; color: #000; }
+		.btn-secondary { border: 1px solid rgba(255,255,255,0.3); color: #fff; }
+		.btn:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(255,255,255,0.2); }
+
+		/* 4. FEATURE GRID & LISTS */
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+			gap: 25px;
+			margin-bottom: 120px;
+		}
+
+		.card {
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.1);
+			border-radius: 24px;
+			padding: 40px;
+			transition: 0.3s;
+		}
+
+		.card:hover { 
+			background: rgba(255, 255, 255, 0.06); 
+			border-color: rgba(255, 255, 255, 0.3);
+			transform: translateY(-5px);
+		}
+
+		.card h3 { margin-bottom: 15px; font-size: 1.4rem; }
+		
+		.card .card-text {
+			color: rgba(255, 255, 255, 0.6);
+			font-size: 0.95rem;
+			margin-bottom: 20px;
+		}
+		
+		.card-text-highlight {
+			font-weight: bold;
+			margin-top: 20px;
+		}
+		
+		.card ul { list-style: none; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px; }
+		.card li {
+			position: relative;
+			padding-left: 25px;
+			margin-bottom: 12px;
+			color: rgba(255, 255, 255, 0.8);
+			font-size: 0.9rem;
+		}
+
+		.card li::before {
+			content: '→';
+			position: absolute;
+			left: 0;
+			color: #fff;
+			opacity: 0.4;
+		}
+
+		/* 5. CONTACT FORM */
+		.contact-container {
+			max-width: 600px;
+			margin: 0 auto;
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.1);
+			backdrop-filter: blur(20px);
+			padding: 50px;
+			border-radius: 30px;
+		}
+
+		input, textarea {
+			width: 100%; padding: 14px; margin-top: 10px; margin-bottom: 20px;
+			background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
+			border-radius: 12px; color: #fff; outline: none;
+		}
+
+		.submit-btn {
+			width: 100%; padding: 16px; background: #fff; color: #000;
+			border: none; border-radius: 12px; font-weight: 700; cursor: pointer; transition: 0.3s;
+		}
+		
+		footer { text-align: center; padding: 60px 20px; opacity: 0.4; font-size: 0.8rem; }
+
+		@media (max-width: 768px) { .nav-links { display: none; } }
+	</style>
+</head>
+<body>
+
+	<nav>
+		<a href="#" class="logo">
+			<svg width="48" height="48" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+			<path d="M24.74,3.97H14.35c-2.08,0-3.71,1.63-3.71,3.71v19.29c0,1.26-0.96,2.23-2.23,2.23H1v3.71h13.35
+				c2.08,0,3.71-1.63,3.71-3.71V9.9c0-1.26,0.96-2.23,2.23-2.23h4.45V47h7.42V19.55h5.19c1.26,0,2.23,0.96,2.23,2.23V32.9H47V19.55
+				c0-2.08-1.63-3.71-3.71-3.71H32.16V1h-7.42V3.97z" fill="#FFF" fill-rule="evenodd" />
+			</svg></a>
+		<ul class="nav-links">
+			<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#116;&#101;&#118;&#101;&#104;&#117;&#110;&#116;&#114;&#105;&#115;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">✉️ Contact</a></li>
+		</ul>
+	</nav>
+
+	<div class="section-padding">
+		
+		<section class="hero">
+			<h1>Community &amp; Brand Systems for Games, Creators, and Online Platforms</h1>
+			<p>I help studios and online platforms build, fix, and grow Discord communities that people actually want to be part of.</p>
+			<p>With over 20 years of experience in visual communication and more than 5 years managing gaming communities, I bring both strategic and creative expertise to community building.</p>
+			<p>Whether you're launching a new community or struggling with an existing one, I can help you create a space that drives engagement, loyalty, and growth.</p>
+			<div class="button-group">
+				<a class="btn btn-primary" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#116;&#101;&#118;&#101;&#104;&#117;&#110;&#116;&#114;&#105;&#115;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Reach Out to Get Started</a>
+			</div>
+		</section>
+
+		<section id="features" class="grid">
+			<div class="card">
+				<h3>Community Foundation 🧱</h3>
+				<p class="card-text">For studios and creators launching or rebuilding their Discord.</p>	
+				<p class="card-text">Includes:</p>
+				<ul>
+					<li>Complete server setup or overhaul</li>
+					<li>Channel and role structure</li>
+					<li>Onboarding flow design</li>
+					<li>Permissions and moderation systems</li>
+					<li>Visual identity and polish</li>
+					<li>Best practices implementation</li>
+				</ul>
+				<p class="card-text-highlight">Result: A professional, scalable community foundation.</p>
+			</div>
+			<div class="card">
+				<h3>Community Growth 🌱</h3>
+				<p class="card-text">For teams that want ongoing support and growth.</p>	
+				<p class="card-text">Includes:</p>
+				<ul>
+					<li>Community management support</li>
+					<li>Engagement and content planning</li>
+					<li>Announcement and event graphics</li>
+					<li>Moderator guidance</li>
+					<li>Community health monitoring</li>
+					<li>Ongoing optimization</li>
+				</ul>
+				<p class="card-text-highlight">Result: A healthier, more engaged, and growing community.</p>
+			</div>
+			<div class="card">
+				<h3>Community Audit 🔍</h3>
+				<p class="card-text">For existing communities that need improvement.</p>	
+				<p class="card-text">Includes:</p>
+				<ul>
+					<li>Full server review</li>
+					<li>Written recommendations</li>
+					<li>Engagement strategy</li>
+					<li>Structural improvements</li>
+					<li>Role optimization suggestions</li>
+					<li>Actionable roadmap for next steps</li>
+				</ul>
+				<p class="card-text-highlight">Result: Clear action plan to improve your community.</p>
+			</div>
+		</section>
+		
+		<section class="work">
+			<h1>Why Work With Me?</h1>
+			<p>Most communities fail because they are built without structure, strategy, or experience.</p>
+			<p>Bringing decades of design and communication expertise, plus hands-on experience managing communities, I understand both the technical and human sides of community building.</p>
+			<img class="portrait" src="me.png"/>
+		</section>
+
+		
+
+	</div>
+
+	<footer>
+		&copy; 2026 Steve Huntriss
+	</footer>
+
+</body>
+</html>
