@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Huntriss | Digital Designer</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --card-bg: #1a1a1e;
+            --text-main: #f8f9fa;
+            --text-muted: #a0aec0;
+            --accent: #ff6b35; /* Vibrant Orange Highlight */
+            --accent-muted: rgba(255, 107, 53, 0.15);
+            --border-color: #2d2d34;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3.5rem;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Left Column / Sidebar */
+        aside {
+            border-right: 1px solid var(--border-color);
+            padding-right: 2.5rem;
+        }
+
+        /* Profile Logo Container */
+        .profile-logo-container {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #222227;
+            margin-bottom: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .profile-logo-container svg {
+            width: 55px;
+            height: 55px;
+            transition: var(--transition);
+        }
+
+        /* Interactive logo state */
+        .profile-logo-container:hover {
+            transform: scale(1.05);
+            border-color: var(--accent);
+            background-color: #25252b;
+            box-shadow: 0 0 15px rgba(255, 107, 53, 0.2);
+        }
+
+        .profile-logo-container:hover svg path {
+            fill: var(--accent);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+
+        .title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info {
+            list-style: none;
+            margin-bottom: 3rem;
+        }
+
+        .contact-info li {
+            font-size: 0.9rem;
+            margin-bottom: 0.6rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info a {
+            color: var(--text-main);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .contact-info a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-main);
+            margin-bottom: 1.2rem;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.4rem;
+        }
+
+        /* Interactive Skill Bars */
+        .skill-container {
+            margin-bottom: 2.5rem;
+        }
+
+        .skill-group {
+            margin-bottom: 1.2rem;
+            cursor: pointer;
+        }
+
+        .skill-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        .skill-group:hover .skill-label {
+            color: #ffffff;
+        }
+
+        .skill-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: var(--accent);
+            width: 0; /* Dynamic entry */
+            border-radius: 10px;
+            transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1);
+        }
+
+        .skill-group:hover .skill-progress {
+            box-shadow: 0 0 12px var(--accent);
+        }
+
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .tag {
+            background: #222227;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+        }
+
+        .tag:hover {
+            background: var(--accent-muted);
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        /* Right Column / Main Content */
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .summary-text {
+            font-size: 1.1rem;
+            color: #e2e8f0;
+            font-weight: 400;
+            line-height: 1.7;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+
+        .timeline-item {
+            position: relative;
+            transition: var(--transition);
+            padding-left: 0.75rem;
+            border-left: 2px solid var(--border-color);
+        }
+        
+        .timeline-item:hover {
+            border-left: 2px solid var(--accent);
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .job-company {
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .job-date {
+            font-size: 0.85rem;
+            color: #6c757d; /* Subtle grey for dates */
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .job-desc {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .job-desc p {
+            margin-bottom: 0.5rem;
+        }
+
+        .job-desc strong {
+            color: #ffffff;
+        }
+
+        .education-item h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .education-item p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 1.5rem;
+                gap: 2rem;
+            }
+            aside {
+                border-right: none;
+                padding-right: 0;
+                border-bottom: 1px solid var(--border-color);
+                padding-bottom: 2rem;
+            }
+            .job-header {
+                flex-direction: column;
+                gap: 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- LEFT SIDEBAR -->
+    <aside>
+        <div style="text-align: center; display: inline-block;">
+            <div class="profile-logo-container">
+                <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.74,3.97H14.35c-2.08,0-3.71,1.63-3.71,3.71v19.29c0,1.26-0.96,2.23-2.23,2.23H1v3.71h13.35
+                        c2.08,0,3.71-1.63,3.71-3.71V9.9c0-1.26,0.96-2.23,2.23-2.23h4.45V47h7.42V19.55h5.19c1.26,0,2.23,0.96,2.23,2.23V32.9H47V19.55
+                        c0-2.08-1.63-3.71-3.71-3.71H32.16V1h-7.42V3.97z" fill="#FFF" fill-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+        
+        <h1>Steve Huntriss</h1>
+        <div class="title">Digital Designer</div>
+        
+        <ul class="contact-info">
+            <li><a href="mailto:stevehuntriss@gmail.com">stevehuntriss@gmail.com</a></li>
+            <li><a href="tel:+15147474791">+1 514 747 4791</a></li>
+            <li><a href="https://stevehuntriss.com" target="_blank">stevehuntriss.com</a></li>
+        </ul>
+
+        <!-- INTERACTIVE SKILL BARS -->
+        <div class="section-title">Design Specific Skills</div>
+        <div class="skill-container">
+            <div class="skill-group">
+                <div class="skill-label"><span>Photoshop / Illustrator</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label"><span>Motion (After Effects / Animate)</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label"><span>3D (C4D / Blender / Zbrush)</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label"><span>Front-end (HTML / CSS / JS)</span><span>80%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-group">
+                <div class="skill-label"><span>Premiere Pro</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+            </div>
+        </div>
+
+        <!-- EXPERTISE TAGS -->
+        <div class="section-title">Expertise</div>
+        <div class="tag-container">
+            <span class="tag">Creative Direction</span>
+            <span class="tag">Brand Identity</span>
+            <span class="tag">User Experience</span>
+            <span class="tag">Team Management</span>
+            <span class="tag">Strategy Development</span>
+            <span class="tag">Website Design</span>
+            <span class="tag">Mentoring & Coaching</span>
+            <span class="tag">Motion Design</span>
+            <span class="tag">Innovation</span>
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="section-title">Languages</div>
+        <div class="tag-container">
+            <span class="tag"><strong style="color:#fff;">English</strong> (Native)</span>
+            <span class="tag"><strong style="color:#fff;">French</strong> (Limited)</span>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- SUMMARY -->
+        <section>
+            <p class="summary-text">
+                Highly skilled creative designer with a ten-year track record of producing innovative, effective products and campaigns. Adept at relationship building, collaboration, mentoring, and ongoing education.
+            </p>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section>
+            <div class="section-title">Experience</div>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="job-header">
+                        <div class="job-title">Digital Creative Designer <span class="job-company">— Freelance</span></div>
+                        <div class="job-date">2019 – Present</div>
+                    </div>
+                    <div class="job-desc">
+                        <p>Produced digital campaigns for a large number of businesses across Canada and worldwide. Led creative teams and relationships, mentoring and collaborating in both a remote and hybrid capacity.</p>
+                        <p><strong>Key Achievement:</strong> Launched an award-winning ecommerce site in 2019 that led to sales growth of over 15% year-on-year and greatly increased engagement via an accompanying mobile app.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="job-header">
+                        <div class="job-title">Creative Lead <span class="job-company">— Shop Genius</span></div>
+                        <div class="job-date">2010 – 2018</div>
+                    </div>
+                    <div class="job-desc">
+                        <p>Co-founded a design studio specifically targeting Shopify store builds. Built a creative team from scratch, eventually employing a remote organization of 8 designers and coders.</p>
+                        <p>Fostered an exceptional collaborative team and forged many healthy connections with the senior leadership at Shopify.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="job-header">
+                        <div class="job-title">Art Director <span class="job-company">— Wunderman Toronto</span></div>
+                        <div class="job-date">2006 – 2009</div>
+                    </div>
+                    <div class="job-desc">
+                        <p>Managed internal and client teams of designers, copywriters, and artists. Was responsible for various digital campaigns for high-profile clientele such as Rogers, Diageo, Ford, and the Royal Canadian Mint.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <h4>BA Visual Communication</h4>
+                <p>KvB Institute of Technology, North Sydney AU</p>
+            </div>
+        </section>
+
+        <!-- INTERESTS -->
+        <section>
+            <div class="section-title">Interests</div>
+            <div class="tag-container">
+                <span class="tag">Alternate Reality Gaming (Creating & Playing)</span>
+                <span class="tag">Maker (3D Printing, Modelling & Painting)</span>
+                <span class="tag">3D Animation in Short Films</span>
+            </div>
+        </section>
+    </main>
+
+</div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const progressBars = document.querySelectorAll('.skill-progress');
+        progressBars.forEach(bar => {
+            const width = bar.style.width;
+            bar.style.width = '0';
+            setTimeout(() => {
+                bar.style.width = width;
+            }, 150);
+        });
+    });
+</script>
+
+</body>
+</html>
